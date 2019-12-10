@@ -1,0 +1,13 @@
+{
+  "code" : [ "SUPPORT01" ],
+  "name" : [ "Support Report for LookUp Tets" ],
+  "description" : [ "Support Report for LookUp Tets" ],
+  "objectName" : [ "Support 01" ],
+  "source" : [ "luerssen.mojixtrack.io" ],
+  "type" : [ "ReportDefinition" ],
+  "tenant" : [ ">LUER" ],
+  "tags" : [ "Support-Report-for-LookUp-Tets" ],
+  "objectType" : [ "table" ],
+  "committer" : [ "root" ],
+  "author" : [ "LUERroot" ]
+}
