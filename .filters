@@ -1,8 +1,8 @@
 {
-  "code" : [ "SUPPORT01", "[IMS]ISSUEMUARA", "[FLOW]SHIPPINGREFERENCE" ],
+  "code" : [ "SUPPORT01", "[IMS]ISSUEMUARA", "[FLOW]SHIPPINGREFERENCE", "[IMS]RECEIPTMUARA" ],
   "name" : [ "Support Report for LookUp Tets", "migration" ],
   "description" : [ "Support Report for LookUp Tets", "migration" ],
-  "objectName" : [ "Support 01", "[IMS] ISSUE MUARA", "[FLOW] Shipping Reference" ],
+  "objectName" : [ "Support 01", "[IMS] ISSUE MUARA", "[FLOW] Shipping Reference", "[IMS] RECEIPT MUARA" ],
   "source" : [ "luerssen.mojixtrack.io", "10.36.1.187" ],
   "type" : [ "ReportDefinition" ],
   "tenant" : [ ">LUER" ],
