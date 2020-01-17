@@ -1,13 +1,13 @@
 {
-  "code" : [ "SUPPORT01", "[IMS]ISSUEMUARA", "[FLOW]SHIPPINGREFERENCE", "[IMS]RECEIPTMUARA" ],
+  "code" : [ "SUPPORT01", "[IMS]ISSUEMUARA", "[FLOW]SHIPPINGREFERENCE", "[IMS]RECEIPTMUARA", "MPCINVENTORYHISTORYFORBRUNEI" ],
   "name" : [ "Support Report for LookUp Tets", "migration" ],
   "description" : [ "Support Report for LookUp Tets", "migration" ],
-  "objectName" : [ "Support 01", "[IMS] ISSUE MUARA", "[FLOW] Shipping Reference", "[IMS] RECEIPT MUARA" ],
+  "objectName" : [ "Support 01", "[IMS] ISSUE MUARA", "[FLOW] Shipping Reference", "[IMS] RECEIPT MUARA", "MMS Inventory History for Brunei" ],
   "source" : [ "luerssen.mojixtrack.io", "10.36.1.187" ],
   "type" : [ "ReportDefinition" ],
   "tenant" : [ ">LUER" ],
   "tags" : [ "Support-Report-for-LookUp-Tets", "migration" ],
-  "objectType" : [ "table" ],
+  "objectType" : [ "table", "tableTimeSeries" ],
   "committer" : [ "root" ],
   "author" : [ "LUERroot", "root" ]
 }
