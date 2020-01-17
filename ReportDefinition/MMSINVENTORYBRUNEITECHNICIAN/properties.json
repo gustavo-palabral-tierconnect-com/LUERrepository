@@ -1,0 +1,810 @@
+{
+  "RBNStock" : {
+    "reportDefinition" : {
+      "getter" : "getByCodeAndHierarchyCode",
+      "innerClass" : "ReportDefinition",
+      "params" : [ {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "MMSINVENTORYBRUNEITECHNICIAN"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "${tenant.hierarchyCode}"
+      } ]
+    },
+    "propertyName" : "RBNStock",
+    "displayOrder" : 6,
+    "showHover" : false,
+    "label" : "RBNStock",
+    "thingType" : {
+      "getter" : "getByCodeAndGroup",
+      "innerClass" : "ThingType",
+      "params" : [ {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "MPC"
+      }, {
+        "getter" : "getByHierarchyCode",
+        "innerClass" : "Group",
+        "params" : "${tenant.hierarchyCode}"
+      } ]
+    },
+    "thingTypeField" : {
+      "getter" : "getByNameAndThingType",
+      "innerClass" : "ThingTypeField",
+      "params" : [ {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "RBNStock"
+      }, {
+        "getter" : "getByCodeAndGroup",
+        "innerClass" : "ThingType",
+        "params" : [ {
+          "getter" : "valueOf",
+          "innerClass" : "String",
+          "params" : "MPC"
+        }, {
+          "getter" : "getByHierarchyCode",
+          "innerClass" : "Group",
+          "params" : "${tenant.hierarchyCode}"
+        } ]
+      } ]
+    }
+  },
+  "Storage Location" : {
+    "reportDefinition" : {
+      "getter" : "getByCodeAndHierarchyCode",
+      "innerClass" : "ReportDefinition",
+      "params" : [ {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "MMSINVENTORYBRUNEITECHNICIAN"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "${tenant.hierarchyCode}"
+      } ]
+    },
+    "propertyName" : "Location",
+    "displayOrder" : 10,
+    "showHover" : false,
+    "label" : "Storage Location",
+    "thingType" : {
+      "getter" : "getByCodeAndGroup",
+      "innerClass" : "ThingType",
+      "params" : [ {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "MPC"
+      }, {
+        "getter" : "getByHierarchyCode",
+        "innerClass" : "Group",
+        "params" : "${tenant.hierarchyCode}"
+      } ]
+    },
+    "thingTypeField" : {
+      "getter" : "getByNameAndThingType",
+      "innerClass" : "ThingTypeField",
+      "params" : [ {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "Location"
+      }, {
+        "getter" : "getByCodeAndGroup",
+        "innerClass" : "ThingType",
+        "params" : [ {
+          "getter" : "valueOf",
+          "innerClass" : "String",
+          "params" : "MPC"
+        }, {
+          "getter" : "getByHierarchyCode",
+          "innerClass" : "Group",
+          "params" : "${tenant.hierarchyCode}"
+        } ]
+      } ]
+    }
+  },
+  "Nsn" : {
+    "reportDefinition" : {
+      "getter" : "getByCodeAndHierarchyCode",
+      "innerClass" : "ReportDefinition",
+      "params" : [ {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "MMSINVENTORYBRUNEITECHNICIAN"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "${tenant.hierarchyCode}"
+      } ]
+    },
+    "propertyName" : "Nsn",
+    "displayOrder" : 13,
+    "showHover" : false,
+    "label" : "Nsn",
+    "thingType" : {
+      "getter" : "getByCodeAndGroup",
+      "innerClass" : "ThingType",
+      "params" : [ {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "MPC"
+      }, {
+        "getter" : "getByHierarchyCode",
+        "innerClass" : "Group",
+        "params" : "${tenant.hierarchyCode}"
+      } ]
+    },
+    "thingTypeField" : {
+      "getter" : "getByNameAndThingType",
+      "innerClass" : "ThingTypeField",
+      "params" : [ {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "Nsn"
+      }, {
+        "getter" : "getByCodeAndGroup",
+        "innerClass" : "ThingType",
+        "params" : [ {
+          "getter" : "valueOf",
+          "innerClass" : "String",
+          "params" : "MPC"
+        }, {
+          "getter" : "getByHierarchyCode",
+          "innerClass" : "Group",
+          "params" : "${tenant.hierarchyCode}"
+        } ]
+      } ]
+    }
+  },
+  "AlphaSafetyStock" : {
+    "reportDefinition" : {
+      "getter" : "getByCodeAndHierarchyCode",
+      "innerClass" : "ReportDefinition",
+      "params" : [ {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "MMSINVENTORYBRUNEITECHNICIAN"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "${tenant.hierarchyCode}"
+      } ]
+    },
+    "propertyName" : "AlphaSafetyStock",
+    "displayOrder" : 3,
+    "showHover" : false,
+    "label" : "AlphaSafetyStock",
+    "thingType" : {
+      "getter" : "getByCodeAndGroup",
+      "innerClass" : "ThingType",
+      "params" : [ {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "MPC"
+      }, {
+        "getter" : "getByHierarchyCode",
+        "innerClass" : "Group",
+        "params" : "${tenant.hierarchyCode}"
+      } ]
+    },
+    "thingTypeField" : {
+      "getter" : "getByNameAndThingType",
+      "innerClass" : "ThingTypeField",
+      "params" : [ {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "AlphaSafetyStock"
+      }, {
+        "getter" : "getByCodeAndGroup",
+        "innerClass" : "ThingType",
+        "params" : [ {
+          "getter" : "valueOf",
+          "innerClass" : "String",
+          "params" : "MPC"
+        }, {
+          "getter" : "getByHierarchyCode",
+          "innerClass" : "Group",
+          "params" : "${tenant.hierarchyCode}"
+        } ]
+      } ]
+    }
+  },
+  "Item Name" : {
+    "reportDefinition" : {
+      "getter" : "getByCodeAndHierarchyCode",
+      "innerClass" : "ReportDefinition",
+      "params" : [ {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "MMSINVENTORYBRUNEITECHNICIAN"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "${tenant.hierarchyCode}"
+      } ]
+    },
+    "propertyName" : "name",
+    "displayOrder" : 8,
+    "showHover" : false,
+    "label" : "Item Name",
+    "thingType" : {
+      "getter" : "getByCodeAndGroup",
+      "innerClass" : "ThingType",
+      "params" : [ {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "MPC"
+      }, {
+        "getter" : "getByHierarchyCode",
+        "innerClass" : "Group",
+        "params" : "${tenant.hierarchyCode}"
+      } ]
+    },
+    "thingTypeField" : null
+  },
+  "MMS" : {
+    "reportDefinition" : {
+      "getter" : "getByCodeAndHierarchyCode",
+      "innerClass" : "ReportDefinition",
+      "params" : [ {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "MMSINVENTORYBRUNEITECHNICIAN"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "${tenant.hierarchyCode}"
+      } ]
+    },
+    "propertyName" : "serial",
+    "displayOrder" : 1,
+    "showHover" : false,
+    "label" : "MMS",
+    "thingType" : {
+      "getter" : "getByCodeAndGroup",
+      "innerClass" : "ThingType",
+      "params" : [ {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "MPC"
+      }, {
+        "getter" : "getByHierarchyCode",
+        "innerClass" : "Group",
+        "params" : "${tenant.hierarchyCode}"
+      } ]
+    },
+    "thingTypeField" : null
+  },
+  "Uom" : {
+    "reportDefinition" : {
+      "getter" : "getByCodeAndHierarchyCode",
+      "innerClass" : "ReportDefinition",
+      "params" : [ {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "MMSINVENTORYBRUNEITECHNICIAN"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "${tenant.hierarchyCode}"
+      } ]
+    },
+    "propertyName" : "Uom",
+    "displayOrder" : 15,
+    "showHover" : false,
+    "label" : "Uom",
+    "thingType" : {
+      "getter" : "getByCodeAndGroup",
+      "innerClass" : "ThingType",
+      "params" : [ {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "MPC"
+      }, {
+        "getter" : "getByHierarchyCode",
+        "innerClass" : "Group",
+        "params" : "${tenant.hierarchyCode}"
+      } ]
+    },
+    "thingTypeField" : {
+      "getter" : "getByNameAndThingType",
+      "innerClass" : "ThingTypeField",
+      "params" : [ {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "Uom"
+      }, {
+        "getter" : "getByCodeAndGroup",
+        "innerClass" : "ThingType",
+        "params" : [ {
+          "getter" : "valueOf",
+          "innerClass" : "String",
+          "params" : "MPC"
+        }, {
+          "getter" : "getByHierarchyCode",
+          "innerClass" : "Group",
+          "params" : "${tenant.hierarchyCode}"
+        } ]
+      } ]
+    }
+  },
+  "BravoSafetyStock" : {
+    "reportDefinition" : {
+      "getter" : "getByCodeAndHierarchyCode",
+      "innerClass" : "ReportDefinition",
+      "params" : [ {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "MMSINVENTORYBRUNEITECHNICIAN"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "${tenant.hierarchyCode}"
+      } ]
+    },
+    "propertyName" : "BravoSafetyStock",
+    "displayOrder" : 5,
+    "showHover" : false,
+    "label" : "BravoSafetyStock",
+    "thingType" : {
+      "getter" : "getByCodeAndGroup",
+      "innerClass" : "ThingType",
+      "params" : [ {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "MPC"
+      }, {
+        "getter" : "getByHierarchyCode",
+        "innerClass" : "Group",
+        "params" : "${tenant.hierarchyCode}"
+      } ]
+    },
+    "thingTypeField" : {
+      "getter" : "getByNameAndThingType",
+      "innerClass" : "ThingTypeField",
+      "params" : [ {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "BravoSafetyStock"
+      }, {
+        "getter" : "getByCodeAndGroup",
+        "innerClass" : "ThingType",
+        "params" : [ {
+          "getter" : "valueOf",
+          "innerClass" : "String",
+          "params" : "MPC"
+        }, {
+          "getter" : "getByHierarchyCode",
+          "innerClass" : "Group",
+          "params" : "${tenant.hierarchyCode}"
+        } ]
+      } ]
+    }
+  },
+  "LastStorageLocation" : {
+    "reportDefinition" : {
+      "getter" : "getByCodeAndHierarchyCode",
+      "innerClass" : "ReportDefinition",
+      "params" : [ {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "MMSINVENTORYBRUNEITECHNICIAN"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "${tenant.hierarchyCode}"
+      } ]
+    },
+    "propertyName" : "LastStorageLocation",
+    "displayOrder" : 11,
+    "showHover" : false,
+    "label" : "LastStorageLocation",
+    "thingType" : {
+      "getter" : "getByCodeAndGroup",
+      "innerClass" : "ThingType",
+      "params" : [ {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "MPC"
+      }, {
+        "getter" : "getByHierarchyCode",
+        "innerClass" : "Group",
+        "params" : "${tenant.hierarchyCode}"
+      } ]
+    },
+    "thingTypeField" : {
+      "getter" : "getByNameAndThingType",
+      "innerClass" : "ThingTypeField",
+      "params" : [ {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "LastStorageLocation"
+      }, {
+        "getter" : "getByCodeAndGroup",
+        "innerClass" : "ThingType",
+        "params" : [ {
+          "getter" : "valueOf",
+          "innerClass" : "String",
+          "params" : "MPC"
+        }, {
+          "getter" : "getByHierarchyCode",
+          "innerClass" : "Group",
+          "params" : "${tenant.hierarchyCode}"
+        } ]
+      } ]
+    }
+  },
+  "Remarks" : {
+    "reportDefinition" : {
+      "getter" : "getByCodeAndHierarchyCode",
+      "innerClass" : "ReportDefinition",
+      "params" : [ {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "MMSINVENTORYBRUNEITECHNICIAN"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "${tenant.hierarchyCode}"
+      } ]
+    },
+    "propertyName" : "Remarks",
+    "displayOrder" : 16,
+    "showHover" : false,
+    "label" : "Remarks",
+    "thingType" : {
+      "getter" : "getByCodeAndGroup",
+      "innerClass" : "ThingType",
+      "params" : [ {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "MPC"
+      }, {
+        "getter" : "getByHierarchyCode",
+        "innerClass" : "Group",
+        "params" : "${tenant.hierarchyCode}"
+      } ]
+    },
+    "thingTypeField" : {
+      "getter" : "getByNameAndThingType",
+      "innerClass" : "ThingTypeField",
+      "params" : [ {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "Remarks"
+      }, {
+        "getter" : "getByCodeAndGroup",
+        "innerClass" : "ThingType",
+        "params" : [ {
+          "getter" : "valueOf",
+          "innerClass" : "String",
+          "params" : "MPC"
+        }, {
+          "getter" : "getByHierarchyCode",
+          "innerClass" : "Group",
+          "params" : "${tenant.hierarchyCode}"
+        } ]
+      } ]
+    }
+  },
+  "Alpha" : {
+    "reportDefinition" : {
+      "getter" : "getByCodeAndHierarchyCode",
+      "innerClass" : "ReportDefinition",
+      "params" : [ {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "MMSINVENTORYBRUNEITECHNICIAN"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "${tenant.hierarchyCode}"
+      } ]
+    },
+    "propertyName" : "Alpha",
+    "displayOrder" : 2,
+    "showHover" : false,
+    "label" : "Alpha",
+    "thingType" : {
+      "getter" : "getByCodeAndGroup",
+      "innerClass" : "ThingType",
+      "params" : [ {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "MPC"
+      }, {
+        "getter" : "getByHierarchyCode",
+        "innerClass" : "Group",
+        "params" : "${tenant.hierarchyCode}"
+      } ]
+    },
+    "thingTypeField" : {
+      "getter" : "getByNameAndThingType",
+      "innerClass" : "ThingTypeField",
+      "params" : [ {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "Alpha"
+      }, {
+        "getter" : "getByCodeAndGroup",
+        "innerClass" : "ThingType",
+        "params" : [ {
+          "getter" : "valueOf",
+          "innerClass" : "String",
+          "params" : "MPC"
+        }, {
+          "getter" : "getByHierarchyCode",
+          "innerClass" : "Group",
+          "params" : "${tenant.hierarchyCode}"
+        } ]
+      } ]
+    }
+  },
+  "Name of OEM" : {
+    "reportDefinition" : {
+      "getter" : "getByCodeAndHierarchyCode",
+      "innerClass" : "ReportDefinition",
+      "params" : [ {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "MMSINVENTORYBRUNEITECHNICIAN"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "${tenant.hierarchyCode}"
+      } ]
+    },
+    "propertyName" : "supplier",
+    "displayOrder" : 14,
+    "showHover" : false,
+    "label" : "Name of OEM",
+    "thingType" : {
+      "getter" : "getByCodeAndGroup",
+      "innerClass" : "ThingType",
+      "params" : [ {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "MPC"
+      }, {
+        "getter" : "getByHierarchyCode",
+        "innerClass" : "Group",
+        "params" : "${tenant.hierarchyCode}"
+      } ]
+    },
+    "thingTypeField" : {
+      "getter" : "getByNameAndThingType",
+      "innerClass" : "ThingTypeField",
+      "params" : [ {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "supplier"
+      }, {
+        "getter" : "getByCodeAndGroup",
+        "innerClass" : "ThingType",
+        "params" : [ {
+          "getter" : "valueOf",
+          "innerClass" : "String",
+          "params" : "MPC"
+        }, {
+          "getter" : "getByHierarchyCode",
+          "innerClass" : "Group",
+          "params" : "${tenant.hierarchyCode}"
+        } ]
+      } ]
+    }
+  },
+  "SupplierPartNumber" : {
+    "reportDefinition" : {
+      "getter" : "getByCodeAndHierarchyCode",
+      "innerClass" : "ReportDefinition",
+      "params" : [ {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "MMSINVENTORYBRUNEITECHNICIAN"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "${tenant.hierarchyCode}"
+      } ]
+    },
+    "propertyName" : "SupplierPartNumber",
+    "displayOrder" : 7,
+    "showHover" : false,
+    "label" : "SupplierPartNumber",
+    "thingType" : {
+      "getter" : "getByCodeAndGroup",
+      "innerClass" : "ThingType",
+      "params" : [ {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "MPC"
+      }, {
+        "getter" : "getByHierarchyCode",
+        "innerClass" : "Group",
+        "params" : "${tenant.hierarchyCode}"
+      } ]
+    },
+    "thingTypeField" : {
+      "getter" : "getByNameAndThingType",
+      "innerClass" : "ThingTypeField",
+      "params" : [ {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "SupplierPartNumber"
+      }, {
+        "getter" : "getByCodeAndGroup",
+        "innerClass" : "ThingType",
+        "params" : [ {
+          "getter" : "valueOf",
+          "innerClass" : "String",
+          "params" : "MPC"
+        }, {
+          "getter" : "getByHierarchyCode",
+          "innerClass" : "Group",
+          "params" : "${tenant.hierarchyCode}"
+        } ]
+      } ]
+    }
+  },
+  "Shelf Life" : {
+    "reportDefinition" : {
+      "getter" : "getByCodeAndHierarchyCode",
+      "innerClass" : "ReportDefinition",
+      "params" : [ {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "MMSINVENTORYBRUNEITECHNICIAN"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "${tenant.hierarchyCode}"
+      } ]
+    },
+    "propertyName" : "shelf life",
+    "displayOrder" : 12,
+    "showHover" : false,
+    "label" : "Shelf Life",
+    "thingType" : {
+      "getter" : "getByCodeAndGroup",
+      "innerClass" : "ThingType",
+      "params" : [ {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "MPC"
+      }, {
+        "getter" : "getByHierarchyCode",
+        "innerClass" : "Group",
+        "params" : "${tenant.hierarchyCode}"
+      } ]
+    },
+    "thingTypeField" : {
+      "getter" : "getByNameAndThingType",
+      "innerClass" : "ThingTypeField",
+      "params" : [ {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "shelf life"
+      }, {
+        "getter" : "getByCodeAndGroup",
+        "innerClass" : "ThingType",
+        "params" : [ {
+          "getter" : "valueOf",
+          "innerClass" : "String",
+          "params" : "MPC"
+        }, {
+          "getter" : "getByHierarchyCode",
+          "innerClass" : "Group",
+          "params" : "${tenant.hierarchyCode}"
+        } ]
+      } ]
+    }
+  },
+  "Bravo" : {
+    "reportDefinition" : {
+      "getter" : "getByCodeAndHierarchyCode",
+      "innerClass" : "ReportDefinition",
+      "params" : [ {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "MMSINVENTORYBRUNEITECHNICIAN"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "${tenant.hierarchyCode}"
+      } ]
+    },
+    "propertyName" : "Bravo",
+    "displayOrder" : 4,
+    "showHover" : false,
+    "label" : "Bravo",
+    "thingType" : {
+      "getter" : "getByCodeAndGroup",
+      "innerClass" : "ThingType",
+      "params" : [ {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "MPC"
+      }, {
+        "getter" : "getByHierarchyCode",
+        "innerClass" : "Group",
+        "params" : "${tenant.hierarchyCode}"
+      } ]
+    },
+    "thingTypeField" : {
+      "getter" : "getByNameAndThingType",
+      "innerClass" : "ThingTypeField",
+      "params" : [ {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "Bravo"
+      }, {
+        "getter" : "getByCodeAndGroup",
+        "innerClass" : "ThingType",
+        "params" : [ {
+          "getter" : "valueOf",
+          "innerClass" : "String",
+          "params" : "MPC"
+        }, {
+          "getter" : "getByHierarchyCode",
+          "innerClass" : "Group",
+          "params" : "${tenant.hierarchyCode}"
+        } ]
+      } ]
+    }
+  },
+  "FullDescription" : {
+    "reportDefinition" : {
+      "getter" : "getByCodeAndHierarchyCode",
+      "innerClass" : "ReportDefinition",
+      "params" : [ {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "MMSINVENTORYBRUNEITECHNICIAN"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "${tenant.hierarchyCode}"
+      } ]
+    },
+    "propertyName" : "FullDescription",
+    "displayOrder" : 9,
+    "showHover" : false,
+    "label" : "FullDescription",
+    "thingType" : {
+      "getter" : "getByCodeAndGroup",
+      "innerClass" : "ThingType",
+      "params" : [ {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "MPC"
+      }, {
+        "getter" : "getByHierarchyCode",
+        "innerClass" : "Group",
+        "params" : "${tenant.hierarchyCode}"
+      } ]
+    },
+    "thingTypeField" : {
+      "getter" : "getByNameAndThingType",
+      "innerClass" : "ThingTypeField",
+      "params" : [ {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "FullDescription"
+      }, {
+        "getter" : "getByCodeAndGroup",
+        "innerClass" : "ThingType",
+        "params" : [ {
+          "getter" : "valueOf",
+          "innerClass" : "String",
+          "params" : "MPC"
+        }, {
+          "getter" : "getByHierarchyCode",
+          "innerClass" : "Group",
+          "params" : "${tenant.hierarchyCode}"
+        } ]
+      } ]
+    }
+  }
+}
