@@ -1,0 +1,32 @@
+{
+  "IMS" : {
+    "skinTabActiveBgColor" : "#29FF4C",
+    "lastModificationDate" : "newDate",
+    "code" : "IMS",
+    "skinTabTextColor" : "#FAFAFA",
+    "createdByUser" : {
+      "getter" : "getByUsername",
+      "innerClass" : "User",
+      "params" : [ {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "root"
+      }, {
+        "getter" : "getByHierarchyCode",
+        "innerClass" : "Group",
+        "params" : ">root"
+      } ]
+    },
+    "skinTabBgColor" : "#5E83FA",
+    "name" : "IMS",
+    "icon" : "tab-icon-blockchain-p2p",
+    "displayOrder" : 1,
+    "skinTabActiveTextColor" : "#353A4A",
+    "creationDate" : "newDate",
+    "group" : {
+      "getter" : "getByHierarchyCode",
+      "innerClass" : "Group",
+      "params" : "${tenant.hierarchyCode}"
+    }
+  }
+}
