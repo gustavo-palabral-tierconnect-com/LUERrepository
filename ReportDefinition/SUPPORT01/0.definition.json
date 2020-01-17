@@ -31,7 +31,7 @@
     "params" : [ {
       "getter" : "valueOf",
       "innerClass" : "String",
-      "params" : "FOLDER-24"
+      "params" : "IMS"
     }, {
       "getter" : "getByHierarchyCode",
       "innerClass" : "Group",
