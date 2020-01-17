@@ -3,7 +3,7 @@
   "name" : [ "Support Report for LookUp Tets", "migration" ],
   "description" : [ "Support Report for LookUp Tets", "migration" ],
   "objectName" : [ "Support 01", "[IMS] ISSUE MUARA", "[FLOW] Shipping Reference", "[IMS] RECEIPT MUARA", "MMS Inventory History for Brunei", "[IMS] CONSUME MUARA", "MMS Consume Overview Summary New", "Issue Overview New", "Receipt Overview New", "Last seen Storage Location", "Storage Location Test QTY", "Color Marking Test", "Count Line Items Bravo", "[IMS] RECEIPT MUARA New", "Adding Images", "[DEBUG] Color Marking Test Copy", "MMS Inventory - Brunei Technician", "Muara Tool HandOut & Return" ],
-  "source" : [ "luerssen.mojixtrack.io", "10.36.1.187", "10.36.1.188" ],
+  "source" : [ "luerssen.mojixtrack.io", "10.36.1.187", "10.36.1.188", "10.36.1.189" ],
   "type" : [ "ReportDefinition" ],
   "tenant" : [ ">LUER" ],
   "tags" : [ "Support-Report-for-LookUp-Tets", "migration" ],
