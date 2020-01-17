@@ -1,0 +1,60 @@
+{
+  "Shelf Life" : {
+    "bulkEdit" : false,
+    "createdByUser" : {
+      "getter" : "getByUsername",
+      "innerClass" : "User",
+      "params" : [ {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "root"
+      }, {
+        "getter" : "getByHierarchyCode",
+        "innerClass" : "Group",
+        "params" : ">root"
+      } ]
+    },
+    "newOption" : true,
+    "deleteOption" : false,
+    "displayOrder" : 1,
+    "defaultZPLTemplate" : null,
+    "label" : "",
+    "editOption" : true,
+    "associate" : false,
+    "disassociate" : false,
+    "defaultRFIDPrint" : null,
+    "reportDefinition" : {
+      "getter" : "getByCodeAndHierarchyCode",
+      "innerClass" : "ReportDefinition",
+      "params" : [ {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "RECEIPTOVERVIEWNEW"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "${tenant.hierarchyCode}"
+      } ]
+    },
+    "name" : "Shelf Life",
+    "isMobile" : false,
+    "thingType" : {
+      "getter" : "getByCodeAndGroup",
+      "innerClass" : "ThingType",
+      "params" : [ {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "SHIPPINGREFERENCE"
+      }, {
+        "getter" : "getByHierarchyCode",
+        "innerClass" : "Group",
+        "params" : "${tenant.hierarchyCode}"
+      } ]
+    },
+    "group" : {
+      "getter" : "getByHierarchyCode",
+      "innerClass" : "Group",
+      "params" : "${tenant.hierarchyCode}"
+    }
+  }
+}
