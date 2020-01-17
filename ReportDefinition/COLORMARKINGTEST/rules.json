@@ -1,0 +1,27 @@
+{
+  "" : {
+    "reportDefinition" : {
+      "getter" : "getByCodeAndHierarchyCode",
+      "innerClass" : "ReportDefinition",
+      "params" : [ {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "COLORMARKINGTEST"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "${tenant.hierarchyCode}"
+      } ]
+    },
+    "color" : "#ff0000",
+    "propertyName" : "",
+    "stopRules" : false,
+    "iconType" : null,
+    "displayOrder" : 2,
+    "style" : "",
+    "thingType" : null,
+    "thingTypeField" : null,
+    "value" : "0",
+    "operator" : "<="
+  }
+}
