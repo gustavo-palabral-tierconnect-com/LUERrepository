@@ -1,0 +1,35 @@
+{
+  "SHIPPINGREFERENCES|ADDINGIMAGES" : {
+    "appTabMenu" : {
+      "getter" : "getByCodeAndAppTab",
+      "innerClass" : "AppTabMenu",
+      "params" : [ {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "SHIPPINGREFERENCES"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "IMS"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "${tenant.hierarchyCode}"
+      } ]
+    },
+    "reportDefinition" : {
+      "getter" : "getByCodeAndHierarchyCode",
+      "innerClass" : "ReportDefinition",
+      "params" : [ {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "ADDINGIMAGES"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "${tenant.hierarchyCode}"
+      } ]
+    },
+    "chartView" : null
+  }
+}
