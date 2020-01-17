@@ -1,8 +1,8 @@
 {
-  "code" : [ "SUPPORT01", "[IMS]ISSUEMUARA", "[FLOW]SHIPPINGREFERENCE", "[IMS]RECEIPTMUARA", "MPCINVENTORYHISTORYFORBRUNEI", "[IMS]CONSUMEMUARA", "MMSCONSUMEOVERVIEWSUMMARYNEW", "MMSCONSUMEOVERVIEWNEWCOPY", "RECEIPTOVERVIEWNEW", "STORAGELOCATIONTEST" ],
+  "code" : [ "SUPPORT01", "[IMS]ISSUEMUARA", "[FLOW]SHIPPINGREFERENCE", "[IMS]RECEIPTMUARA", "MPCINVENTORYHISTORYFORBRUNEI", "[IMS]CONSUMEMUARA", "MMSCONSUMEOVERVIEWSUMMARYNEW", "MMSCONSUMEOVERVIEWNEWCOPY", "RECEIPTOVERVIEWNEW", "STORAGELOCATIONTEST", "STORAGELOCATIONTESTQTY" ],
   "name" : [ "Support Report for LookUp Tets", "migration" ],
   "description" : [ "Support Report for LookUp Tets", "migration" ],
-  "objectName" : [ "Support 01", "[IMS] ISSUE MUARA", "[FLOW] Shipping Reference", "[IMS] RECEIPT MUARA", "MMS Inventory History for Brunei", "[IMS] CONSUME MUARA", "MMS Consume Overview Summary New", "Issue Overview New", "Receipt Overview New", "Last seen Storage Location" ],
+  "objectName" : [ "Support 01", "[IMS] ISSUE MUARA", "[FLOW] Shipping Reference", "[IMS] RECEIPT MUARA", "MMS Inventory History for Brunei", "[IMS] CONSUME MUARA", "MMS Consume Overview Summary New", "Issue Overview New", "Receipt Overview New", "Last seen Storage Location", "Storage Location Test QTY" ],
   "source" : [ "luerssen.mojixtrack.io", "10.36.1.187" ],
   "type" : [ "ReportDefinition" ],
   "tenant" : [ ">LUER" ],
